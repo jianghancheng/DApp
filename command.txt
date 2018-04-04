@@ -1,0 +1,3 @@
+geth --datadir "./chain" init ./genesis.json
+
+geth --datadir "./chain" --networkid 1105 --rpc --rpcaddr "localhost" --rpcport 8545 --rpcapi admin,debug,personal,rpc,eth,txpool,miner,net,web3 console
